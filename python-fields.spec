@@ -24,6 +24,7 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	python-modules >= 1:2.6
 BuildRequires:	python-setuptools
 %if %{with tests}
+BuildRequires:	python-characteristic
 BuildRequires:	python-pytest
 BuildRequires:	python-pytest-benchmark
 %endif
@@ -32,6 +33,7 @@ BuildRequires:	python-pytest-benchmark
 BuildRequires:	python3-modules >= 1:3.3
 BuildRequires:	python3-setuptools
 %if %{with tests}
+BuildRequires:	python3-characteristic
 BuildRequires:	python3-pytest
 BuildRequires:	python3-pytest-benchmark
 %endif
