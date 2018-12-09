@@ -1,0 +1,12 @@
+napoleon is included in sphinx >= 1.3 as ext.napoleon
+--- fields-5.0.0/docs/conf.py.orig	2016-04-13 22:51:23.000000000 +0200
++++ fields-5.0.0/docs/conf.py	2018-08-01 22:09:38.229491885 +0200
+@@ -11,7 +11,7 @@
+     'sphinx.ext.coverage',
+     'sphinx.ext.ifconfig',
+     'sphinx.ext.viewcode',
+-    'sphinxcontrib.napoleon'
++    'sphinx.ext.napoleon'
+ ]
+ if os.getenv('SPELLCHECK'):
+     extensions += 'sphinxcontrib.spelling',
