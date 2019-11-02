@@ -9,7 +9,7 @@ Summary:	Container class boilerplate killer
 Summary(pl.UTF-8):	Zabójca ramowego kodu klas kontenerów
 Name:		python-fields
 Version:	5.0.0
-Release:	2
+Release:	3
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/fields/
