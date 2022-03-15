@@ -1,5 +1,14 @@
 --- fields-5.0.0/setup.cfg.orig	2016-04-13 22:51:43.000000000 +0200
 +++ fields-5.0.0/setup.cfg	2018-08-02 05:39:20.335850460 +0200
+@@ -8,7 +8,7 @@
+ max-line-length = 140
+ exclude = tests/*,*/migrations/*,*/south_migrations/*
+ 
+-[pytest]
++[tool:pytest]
+ norecursedirs = 
+ 	.git
+ 	.tox
 @@ -31,7 +31,6 @@
  	--doctest-modules
  	--doctest-glob=\*.rst

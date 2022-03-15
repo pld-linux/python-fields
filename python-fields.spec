@@ -106,6 +106,8 @@ Dokumentacja API modułu Pythona fields.
 %py_build
 
 %if %{with tests}
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
+PYTEST_PLUGINS="pytest_benchmark.plugin" \
 PYTHONPATH=$(pwd)/src \
 %{__python} -m pytest tests
 %endif
@@ -115,6 +117,8 @@ PYTHONPATH=$(pwd)/src \
 %py3_build
 
 %if %{with tests}
+PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
+PYTEST_PLUGINS="pytest_benchmark.plugin" \
 PYTHONPATH=$(pwd)/src \
 %{__python3} -m pytest tests
 %endif
