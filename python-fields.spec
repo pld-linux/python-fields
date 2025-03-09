@@ -98,8 +98,8 @@ Dokumentacja API modułu Pythona fields.
 
 %prep
 %setup -q -n fields-%{version}
-%patch0 -p1
-%patch1 -p1
+%patch -P 0 -p1
+%patch -P 1 -p1
 
 %build
 %if %{with python2}
